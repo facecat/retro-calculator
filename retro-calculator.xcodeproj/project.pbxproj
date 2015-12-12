@@ -285,6 +285,7 @@
 				923DB4F91C1BF704004C208A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
