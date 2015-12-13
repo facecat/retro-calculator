@@ -22,9 +22,9 @@
 		923DB4E81C1BF704004C208A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		923DB4EA1C1BF704004C208A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		923DB4ED1C1BF704004C208A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		923DB4EF1C1BF704004C208A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		923DB4EF1C1BF704004C208A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "retro-calculator/Assets.xcassets"; sourceTree = "<group>"; };
 		923DB4F21C1BF704004C208A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		923DB4F41C1BF704004C208A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923DB4F41C1BF704004C208A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "retro-calculator/Info.plist"; sourceTree = "<group>"; };
 		9293D1BB1C1C108600301A15 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 		92E012511C1C1D4F000A0658 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,9 +44,8 @@
 			isa = PBXGroup;
 			children = (
 				923DB4E71C1BF704004C208A /* retro-calculator */,
+				92E012531C1C22A0000A0658 /* Support Files */,
 				923DB4E61C1BF704004C208A /* Products */,
-				9293D1BB1C1C108600301A15 /* btn.wav */,
-				92E012511C1C1D4F000A0658 /* Minecraft.ttf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,11 +63,20 @@
 				923DB4E81C1BF704004C208A /* AppDelegate.swift */,
 				923DB4EA1C1BF704004C208A /* ViewController.swift */,
 				923DB4EC1C1BF704004C208A /* Main.storyboard */,
-				923DB4EF1C1BF704004C208A /* Assets.xcassets */,
 				923DB4F11C1BF704004C208A /* LaunchScreen.storyboard */,
-				923DB4F41C1BF704004C208A /* Info.plist */,
 			);
 			path = "retro-calculator";
+			sourceTree = "<group>";
+		};
+		92E012531C1C22A0000A0658 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				923DB4F41C1BF704004C208A /* Info.plist */,
+				923DB4EF1C1BF704004C208A /* Assets.xcassets */,
+				9293D1BB1C1C108600301A15 /* btn.wav */,
+				92E012511C1C1D4F000A0658 /* Minecraft.ttf */,
+			);
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
