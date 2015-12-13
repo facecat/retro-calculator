@@ -76,6 +76,11 @@ class ViewController: UIViewController {
         operationPressed(Operation.Empty)
     }
     
+    @IBAction func clearButtonPressed(sender: UIButton) {
+        playBtnSound()
+        resetCalculator()
+    }
+    
     //MARK: Functions
     func operationPressed(op: Operation) {
         playBtnSound()
@@ -127,6 +132,14 @@ class ViewController: UIViewController {
             btnSound.stop()
         }
         btnSound.play()
+    }
+    
+    func resetCalculator() {
+        runningNum = ""
+        currentOperation = Operation.Empty
+
+        leftNum = "0"
+        ouputLabel.text = leftNum
     }
 }
 
